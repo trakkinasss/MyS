@@ -1,6 +1,3 @@
--- Espera o jogo carregar completamente
-repeat task.wait(1) until game:IsLoaded()
-
 local Players = game:GetService("Players")
 repeat task.wait(1) until Players.LocalPlayer
 local player = Players.LocalPlayer
